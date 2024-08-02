@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Juan Calderon ADSO-->
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Registro e Inicio de Sesion
+    </title>
+   </head>
+   <body>
+    <h1>
+        Registro e Inicio de Sesion
+    </h1>
+    <!--Seccion de Registro-->
+    <div id="registro">
+        <h2>Registro</h2>
+        <input type="text" id="usuarioRegistro" placeholder="Usuario" required>
+        <input type="password" id="contraseñaRegistro" placeholder="Contraseña" required>
+        <button onclick="registrar()">Registrar</button>
+        <p id="mensajeRegistro"></p>
+    </div>
+    <!--Seccion de Inicio de Sesion-->
+    <div id="login">
+        <h2>Inicio de Sesion</h2>
+        <input type="text" id="usuarioLogin" placeholder="Usuario" required>
+        <input type="password" id="contraseñaLogin" placeholder="Contraseña" required>
+        <button onclick="iniciarSesion()">Iniciar Sesion</button>
+        <p id="mensajeLogin"></p>
+    </div>
+    <script src="script.js"></script>
+   </body>
+</html>
